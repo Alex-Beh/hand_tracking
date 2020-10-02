@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import csv
 import cv2
 import numpy as np
@@ -92,6 +94,7 @@ class HandTracker():
        
     @staticmethod
     def _sigm(x):
+        x=np.array(x,dtype=np.float128)
         return 1 / (1 + np.exp(-x) )
     
     @staticmethod
