@@ -37,7 +37,7 @@ Big thanks to @metalwhale for removing cusom operation dependencies.
         - 'find /usr/include -name pyconfig.h'
         - 'export CPLUS_INCLUDE_PATH="$CPLUS_INCLUDE_PATH:/usr/include/python3.6m/"'
     2. compile with g++
-        - 'g++ -fPIC -shared -o gesture_recognition1.so gesture_recognition.cpp -lpython3.6m -lboost_python3 -lboost_numpy3'
+        - 'g++ -fPIC -shared -o gesture_recognition.so gesture_recognition.cpp -lpython3.6m -lboost_python3 -lboost_numpy3'
         - reference link: https://blog.csdn.net/fxjtoday/article/details/6059874?utm_medium=distribute.wap_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.wap_blog_relevant_pic&depth_1-utm_source=distribute.wap_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.wap_blog_relevant_pic
     3. Issue to be solve:
         - (i)   counter on detection output
